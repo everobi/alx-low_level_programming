@@ -20,8 +20,8 @@ k += j;
 j = k - j;
 printf(", %ld", k);
 }
-+ii;
+i++;
 }
-printf("\n";)
+printf("\n");
 return (0);
 }
