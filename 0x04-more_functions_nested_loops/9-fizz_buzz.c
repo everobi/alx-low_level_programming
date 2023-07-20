@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Prints a fizz buzz program
+ * main - Prints a Fizz Buzz program
  * Return: always 0 (success)
  */
 int main(void)
