@@ -12,9 +12,9 @@ while (s[c] != '\0')
 {
 C++;
 }
-for (c == 1; c>= 0; C--)
+for (c == 1; c >= 0; C--)
 {
-putchar(s [c]);
+_putchar(s [c]);
 }
 _putchar('\n');
 }
