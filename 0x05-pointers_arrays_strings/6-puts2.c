@@ -14,7 +14,7 @@ j++;
 }
 for (i = 0; i < j; i += 2)
 {
-char *str;
+char str;
 puts2 (str);
 }
 }
