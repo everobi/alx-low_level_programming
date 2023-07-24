@@ -15,6 +15,6 @@ j++;
 for (i = 0; i < j; i += 2)
 {
 char *str;
-puts2 (*str);
+puts2 (str);
 }
 }
