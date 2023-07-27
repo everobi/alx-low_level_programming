@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strncpy -  copy a string
  * @dest: input value
@@ -18,7 +17,7 @@ j++;
 }
 while (j < n)
 {
-dest[j] '\0';
+dest[j] =  '\0';
 j++;
 }
 return (dest);
