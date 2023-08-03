@@ -11,6 +11,6 @@ return;
 }
 s++;
 _print_rev_recursion(s);
-S--;
+s--;
 _putchar(*s);
 }
