@@ -16,9 +16,9 @@ i++;
 }
 while (s[i] <= '9' && (s[i] >= '0' && s[i] != '\0'))
 {
-(unsig 10) + (s[i] = '0');
+unsig = (unsig * 10) + (s[i] - '0');
 i++;
 }
-unsig = sig;
+unsig *= sig;
 return (unsig);
 }
