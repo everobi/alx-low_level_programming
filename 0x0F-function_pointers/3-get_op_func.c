@@ -1,6 +1,3 @@
-#include "function_pointers.h"
-#include <stdlib.h>
-#include <stdio.h>
 #include "3-calc.h"
 /**
  * get_op_func - selects the correct function
@@ -17,6 +14,15 @@ op_t ops[] = {
 {"*", op_mul},
 {"/", op_div},
 {"%", op_mod},
-{NULL, NULL},
-}
+{NULL, NULL}
+};
+int i;
+i = 0;
+while (ops[i].op)
+{
+if (((ops[i].op- s) == 0))
+return (ops[i].f);
+i++;
+};
+return (NULL);
 }
